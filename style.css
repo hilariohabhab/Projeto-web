@@ -1,0 +1,150 @@
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0 auto;
+  padding: 0;
+  border: 0;
+}
+
+h1 {
+  text-align: center;
+  margin: 15px 5px 5px 5px;
+  color: #d84c72;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  margin: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 300px;
+  max-height: 220px;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.253);
+
+  height: 220px;
+  width: 160px;
+}
+
+header {
+  padding: 15px 0px 15px 0px;
+  width: 100%;
+  background-color: #1a2f61;
+  display: flex;
+  grid-template-columns: 1fr 200px 200px;
+  justify-content: flex-start;
+}
+
+header .menu-header {
+  width: 1200px;
+  max-width: 100%;
+  margin: auto;
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+header .menu-header .form {
+  display: inline-flex;
+}
+
+header ul {
+  display: flex;
+}
+
+#search {
+  width: 300px;
+  height: 25px;
+  grid-column: 2;
+}
+
+header .menu-header .form button {
+  margin-left: -20px;
+  background-color: #fff;
+}
+
+input {
+  border: 2px solid #fff;
+  border-radius: 5px;
+}
+
+#menu ul li {
+  display: inline;
+  list-style-type: none;
+}
+
+#menu ul li a {
+  padding: 15px;
+  transition: background 0.5s;
+  color: white;
+}
+
+#menu ul li a:hover {
+  background-color: rgba(250, 235, 215, 0.247);
+}
+
+main {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.categorias {
+  display: flex;
+  margin-top: 100px;
+}
+
+.img {
+  grid-row: 2;
+  float: left;
+}
+
+footer {
+  background-color: #1a2f61;
+  color: #fff;
+  height: 30px;
+  font-size: 18px;
+  text-align: center;
+  padding: 10px 0;
+  width: 100vw;
+  position: absolute;
+  bottom: 0;
+}
+
+@media screen and (max-device-width: 1100px) {
+  body {
+    min-width: 100vw;
+    min-height: 100vh;
+  }
+
+  #menu ul li a {
+    padding: 8px;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  header {
+    width: 100%;
+  }
+
+  header .menu-header {
+    width: 100%;
+    display: block;
+  }
+
+  footer {
+    bottom: 0 auto;
+    width: 100%;
+  }
+
+  .categorias {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+}

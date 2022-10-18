@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carros usados</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;0,900;1,500;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="Foto-Carros/favicon/faviconcarro.png"
+      type="image/x-icon"
+    />
+  </head>
+
+  <body>
+    <header>
+      <nav id="menu">
+        <div class="menu-header">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Usados</a></li>
+            <li><a href="#">Sobre Nós</a></li>
+            <li><a href="#"> Contato</a></li>
+            <li><a href="#"> Entrar</a></li>
+          </ul>
+          <div id="icone" class="menu-search">
+            <form action="#" class="form">
+              <input
+                id="search"
+                onkeyup="searchCarros()"
+                type-name="search"
+                placeholder=" Busque por marca ou modelo..."
+              />
+              <button type="submit">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="master-section">
+      <h1>CATEGORIAS</h1>
+      <section class="categorias">
+        <a class="img" href="carros.html"
+          ><img
+            src="Foto-Carros/banner/supercarroes.png"
+            alt="super carroes"
+            id="img1tam"
+        /></a>
+        <a class="img" href="#"
+          ><img src="Foto-Carros/banner/classicos.png" alt="classicos"
+        /></a>
+        <a class="img" href="#"
+          ><img src="Foto-Carros/banner/economico.png" alt="economico"
+        /></a>
+        <a class="img" href="#"
+          ><img src="Foto-Carros/banner/motos.png" alt="motos"
+        /></a>
+      </section>
+    </main>
+
+    <footer>
+      <p>Desenvolvido por: Mohamad Habhab</p>
+    </footer>
+    <script
+      src="https://kit.fontawesome.com/77ed8fcf0a.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

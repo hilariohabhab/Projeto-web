@@ -1,0 +1,61 @@
+* {
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+    display: flex;
+    background-color: #cdcfd6;
+    justify-content: center;
+}
+main{
+    height: 100vh;
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+#voltar{
+    width: 120px;
+    border-radius: 10px ;
+    background-color: rgb(56, 169, 131);
+    transition: background 0.5s;
+    color: white;
+    
+
+}
+#voltar a{
+    
+    text-decoration: none;
+}
+#voltar:hover {
+    
+    background-color: rgb(224, 190, 22);
+    
+}
+img{
+    width: 680px;
+    height: 400px;
+    box-shadow: 0 1px 2px #0003;
+    
+}
+.swiper{
+    height: 500px;
+}
+.swiper-slide{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media (max-width:450px){
+    .swiper{
+        height: 270px;
+    }
+}
+
+
+

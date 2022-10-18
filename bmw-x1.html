@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Carros</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;0,900;1,500;1,600&display=swap" rel="stylesheet" />
+    <link rel="shortcut icon" href="Foto-Carros/favicon/faviconcarro.png" type="image/x-icon">
+    <link rel="stylesheet" href="bmw-x1.css">
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+/>
+    
+</head>
+
+<body>
+
+    <main>
+            <span>
+        <h1>BMW X1</h1>
+    </span>
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="project-img">
+                      <img src="Foto-Carros/BMW M3/bmw-m3-3-0-competition-m-bi-turbo-510cv-4p_f1212379fc4.jpeg" alt="bmw-1">
+                    
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="project-img">
+                        <img src="Foto-Carros/BMW M3/bmw-m3-3-0-competition-m-bi-turbo-510cv-4p_f121237d904.jpeg" alt="bmw-2">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="project-img">
+                        <img src="Foto-Carros/BMW M3/bmw-m3-3-0-competition-m-bi-turbo-510cv-4p_f121238610d.jpeg" alt="bmw-3">
+                    </div>
+                    
+                </div>
+            </div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+    </main>
+    <div>
+       <a href="carros.html"><button type="button" id="voltar"> Voltar</button></a>
+    </div>
+<script type="module">
+  import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.esm.browser.min.js'
+
+const swiper = new Swiper(".swiper", {
+  cssMode: true,
+  loop: true,
+
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+
+  pagination: {
+    el: ".swiper-pagination",
+  },
+  keyboard: true,
+});
+
+</script>
+</body>
+
+</html>

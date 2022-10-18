@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Super Carros</title>
+    <link rel="stylesheet" href="carros.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script2.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;0,900;1,500;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="Foto-Carros/favicon/faviconcarro.png"
+      type="image/x-icon"
+    />
+  </head>
+
+  <body>
+    
+    <header>
+      <nav id="menu" class="menu-header">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">Usados</a></li>
+          <li><a href="#">Sobre Nós</a></li>
+          <li><a href="#"> Contato</a></li>
+          <li><a href="#"> Entrar</a></li>
+        </ul>
+        <div id="icone" class="menu-search">
+          <form action="#" class="form">
+            <input
+              id="search"
+              onkeyup="searchCarros()"
+              type-name="search"
+              placeholder=" Busque por marca ou modelo..."
+            />
+            <button type="submit">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </form>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+       
+      <h1>Super Carrões</h1>
+
+      <ul id="supercarros">
+        <li class="carros">
+          <a href="bmw-x1.html">
+            <img
+              src="Foto-Carros/BMW M3/bmw-m3-3-0-competition-m-bi-turbo-510cv-4p_f1212379fc4.jpeg"
+              alt="bmwx1"
+          /></a>
+          <p id="busca1">Modelo: BMW X1</p>
+        </li>
+        <li class="carros">
+          <img src="Foto-Carros/BMW/785214663975117.jpg" alt="bmw-x1-2" />
+          <p id="busca2">Modelo: BMW X2</p>
+        </li>
+        <li class="carros">
+          <img
+            src="Foto-Carros/FERRARI SPYDER AZUL/ferrari-488-spyder-3-9-v8-670cv_f11dd105fe6.jpeg"
+            alt="ferrari-spyder"
+          />
+          <p id="busca3">Modelo: Ferrari Spyder</p>
+        </li>
+        <li class="carros">
+          <img
+            src="Foto-Carros/FERRARI SPYDER/ferrari-488-spyder-3-9-v8-670cv_e637fa1fab9.jpeg"
+            alt="ferrari-spyder-2"
+          />
+          <p id="busca4">Modelo: Ferrari F1</p>
+        </li>
+        <li class="carros">
+          <img
+            src="Foto-Carros/LAMBORGHINI/lamborghini-huracan-coupe-rwd-lp-580-2_f15208f809f.jpeg"
+            alt="lamborghini"
+          />
+          <p id="busca5">Modelo: lamborghini</p>
+        </li>
+        <li class="carros">
+          <img
+            src="Foto-Carros/PORSCHE/9d948970-e6d6-11ec-9406-656261ca66c0.jpg"
+            alt="porsche"
+          />
+          <p id="busca5">Modelo: porsche</p>
+        </li>
+      </ul>
+    </main>
+    <footer>
+      <h6>Desenvolvido por Mohamad Habhab</h6>
+    </footer>
+    <script
+      src="https://kit.fontawesome.com/77ed8fcf0a.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

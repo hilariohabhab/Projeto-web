@@ -1,0 +1,13 @@
+Marca: PORSCHE
+
+Modelo: MACAN
+
+Ano: 2021/2022
+
+Quilometragem: 2450
+
+Combustível: Gasolina
+
+Cor: Branco
+
+Valor: R$ 919.000.00

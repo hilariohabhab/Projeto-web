@@ -1,0 +1,38 @@
+.carros {
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+ul {
+  list-style-type: none;
+}
+img {
+  width: 300px !important;
+  height: 185px !important;
+}
+
+.carros p {
+  background-color: #1a2f61;
+  color: whitesmoke;
+  padding: 5px 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.carros p:hover {
+  transform: rotate(-3deg);
+}
+
+#supercarros {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+}
+footer{
+  height: 15px !important;
+  font-family:Arial, Helvetica, sans-serif !important;
+
+}
+@media screen and (max-device-width: 1100px) {
+  #supercarros {
+    display: block;
+  }
+}
